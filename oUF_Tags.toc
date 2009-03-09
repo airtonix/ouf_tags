@@ -1,0 +1,10 @@
+## Interface: 30000
+## Title: |cffff0000o|rUF_|cff336633Tags|r
+## Author: 
+## X-eMail: 
+## Dependencies: oUF
+## RequiredDeps: oUF
+## DefaultState: enabled
+
+utf8.lua
+oUF_Tags.lua
