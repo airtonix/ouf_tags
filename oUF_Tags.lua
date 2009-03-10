@@ -29,9 +29,9 @@ end
 --===========================--
 
 
-oUF.Tags["[missinghp]"] = function(u) m=UnitHealthMax(u) - UnitHealth(u); return m>0 and m or "" end
+oUF.Tags["[missinghp]"] = function(u) m=UnitHealthMax(u) - UnitHealth(u); return m>0 and m.. " | " or "" end
 oUF.TagEvents["[missinghp]"] = "UNIT_HEALTH UNIT_MAXHEALTH"
-oUF.Tags["[missingpp]"] = function(u) m=UnitPowerMax(u) - UnitPower(u); return m>0 and m or "" end
+oUF.Tags["[missingpp]"] = function(u) m=UnitPowerMax(u) - UnitPower(u); return m>0 and m.. " | " or "" end
 oUF.TagEvents["[missingpp]"] = "UNIT_HEALTH UNIT_MAXHEALTH"
 
 
